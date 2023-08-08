@@ -18,8 +18,8 @@ if (mobile === 1) {
 localStorage = null;
 try {
   localStorage = window.localStorage;
-  localStorage.setItem("yamete", "1");
-  localStorage.getItem("yamete");
+  localStorage.setItem("elmas", "1");
+  localStorage.getItem("elmas");
 } catch (error) {
   storage = {};
   localStorage = {};
@@ -2327,7 +2327,7 @@ function datatosrv(dat) {
   //admin login
 
   //tokenid = "390"
-  //nickname = "yameteOwner1234token";
+  //nickname = "Elmas";
   //userid = 1;
 
   // admin login
@@ -9619,9 +9619,9 @@ var homescreen = (function () {
     mapeditorButton.drawButton();
     if (WnwMN.W === null) {
       WnwMN.W = vM.showtxt(
-        "by yamete",
+        "by elmas",
         "'Viga', sans-serif",
-        "#d6ddde",
+        "#FF0000",
         24,
         400,
         window.undefined,
@@ -9772,33 +9772,8 @@ var homescreen = (function () {
       var MwWMw = window.open("https://discord.gg/Wd8XcPhsaf", "_blank");
     }
     if (playButton.mw() === 1) {
-      vnm = 1;
-
-      //function to play
-      // download my app
-      window.location.href = "/devastmod.zip";
-      // give a random popup of the key
-      //startingPlayFunc();
-      audio.VnV(audio.ww.play, 1, 0);
-      //spam delete /* */ then put // before VVMVn()'
-      /* 
-                
-                var i = 1;
-
-                function myLoop() {
-                  setTimeout(function() {
-                    VVMVn();   //  your code here
-                    i++;
-                    if (i < 99999999999999999999) {
-                      myLoop();
-                    }
-                  }, 10)
-                }
-                
-                myLoop();
-
-                */
-    }
+     vnm = 1;
+    } 
     if (ytButton1.mw() === 1) {
       vnm = 1;
       var MwWMw = window.open("https://discord.gg/Wd8XcPhsaf", "_blank");
