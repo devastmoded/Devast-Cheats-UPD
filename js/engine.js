@@ -1,12 +1,3 @@
-/*
-commands in chat:
-!new = new token
-!afk = server not gona kick you out
-!ls = draw lines
-!eat = auto eat food from inventory
-!loot = retarded loot
-*/
-
 var lowerCase = window.navigator.userAgent.toLowerCase();
 var isTouchScreen = (((((((lowerCase.indexOf("isTouchScreen") !== -1) || (lowerCase.indexOf("android") !== -1)) || (lowerCase.indexOf("ipad") !== -1)) || (lowerCase.indexOf("iphone") !== -1)) || (lowerCase.indexOf("ipod") !== -1)) || (lowerCase.indexOf("kindle") !== -1)) || (lowerCase.indexOf("silk/") !== -1)) ? 1 : 0;
 if (isTouchScreen === 1) {
