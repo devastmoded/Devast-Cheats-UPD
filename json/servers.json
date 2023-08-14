@@ -1,7 +1,40 @@
-[
-["139.162.190.42", "139-162-190-42.devast.io", "443", 1, "Frankfurt", 
-34
-],
-["172.104.150.187", "172-104-150-187.devast.io", "443", 1, "Frankfurt", 
-40
-],
+"datacenter_coord": {
+                "latitude": 37.77938,
+                "longitude": -122.41843
+            },
+            "datacenter_distance_from_client": {
+                "kilometers": 9609.083949999998,
+                "miles": 5970.806103095449
+            },
+            "provider_display_name": "Linode",
+            "region_display_name": "San Francisco",
+            "region_id": "lnd-sfo"
+        },
+        {
+            "datacenter_coord": {
+                "latitude": -33.87271,
+                "longitude": 151.20569
+            },
+            "datacenter_distance_from_client": {
+                "kilometers": 13767.246212,
+                "miles": 8554.567545996651
+            },
+            "provider_display_name": "Linode",
+            "region_display_name": "Sydney",
+            "region_id": "lnd-syd"
+        },
+        {
+            "datacenter_coord": {
+                "latitude": 35.68951,
+                "longitude": 139.6917
+            },
+            "datacenter_distance_from_client": {
+                "kilometers": 6850.281256,
+                "miles": 4256.566114321976
+            },
+            "provider_display_name": "Linode",
+            "region_display_name": "Tokyo",
+            "region_id": "lnd-tok"
+        }
+    ]
+}
