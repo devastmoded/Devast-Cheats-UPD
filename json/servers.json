@@ -1,6 +1,8 @@
 {
     "lobby": {
         "lobby_id": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00",
+        "player": {
+            "token": "token"
         },
         "ports": {
             "default": {
@@ -14,6 +16,9 @@
             "display_name": "Tokyo",
             "region_id": "lnd-tok"
         }
+    },
+    "player": {
+        "token": "player.eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.CJSqmKa8MRCU-qaqnzEaEgoQzb6iIKMWQfqnUngS7i9H1yIWKhQKEgoQ7ohOPeJsQ2qBzR4lKAxcwg.BRmotzZcHZevIQw197_hIG_yOonGvbxqEim8u8P3LwfMwZyWGXIwV2osDUgC_PIMTq96tCAiXsr88kE4v_ZyAg"
     },
     "ports": {
         "default": {
