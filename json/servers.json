@@ -1,3 +1,154 @@
+{
+    "lobby": {
+        "lobby_id": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00",
+        "player": {
+            "token": "player.eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.CJSqmKa8MRCU-qaqnzEaEgoQzb6iIKMWQfqnUngS7i9H1yIWKhQKEgoQ7ohOPeJsQ2qBzR4lKAxcwg.BRmotzZcHZevIQw197_hIG_yOonGvbxqEim8u8P3LwfMwZyWGXIwV2osDUgC_PIMTq96tCAiXsr88kE4v_ZyAg"
+        },
+        "ports": {
+            "default": {
+                "host": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00-default.lobby.lnd-tok.rivet.run:443",
+                "hostname": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00-default.lobby.lnd-tok.rivet.run",
+                "is_tls": true,
+                "port": 443
+            }
+        },
+        "region": {
+            "display_name": "Tokyo",
+            "region_id": "lnd-tok"
+        }
+    },
+    "player": {
+        "token": "player.eyJ0eXAiOiJKV1QiLCJhbGciOiJFZERTQSJ9.CJSqmKa8MRCU-qaqnzEaEgoQzb6iIKMWQfqnUngS7i9H1yIWKhQKEgoQ7ohOPeJsQ2qBzR4lKAxcwg.BRmotzZcHZevIQw197_hIG_yOonGvbxqEim8u8P3LwfMwZyWGXIwV2osDUgC_PIMTq96tCAiXsr88kE4v_ZyAg"
+    },
+    "ports": {
+        "default": {
+            "host": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00-default.lobby.lnd-tok.rivet.run:443",
+            "hostname": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00-default.lobby.lnd-tok.rivet.run",
+            "is_tls": true,
+            "port": 443
+        }
+    }
+}
+{
+    "game_modes": [
+        {
+            "game_mode_id": "ghoul"
+        },
+        {
+            "game_mode_id": "survival"
+        }
+    ],
+    "lobbies": [
+        {
+            "game_mode_id": "survival",
+            "lobby_id": "224032ac-4481-41cb-9e50-6588b47ba2ae",
+            "max_players_direct": 120,
+            "max_players_normal": 120,
+            "max_players_party": 120,
+            "region_id": "lnd-sfo",
+            "total_player_count": 78
+        },
+        {
+            "game_mode_id": "ghoul",
+            "lobby_id": "42e40176-5530-43fb-b17b-098aa42fe9fb",
+            "max_players_direct": 120,
+            "max_players_normal": 120,
+            "max_players_party": 120,
+            "region_id": "lnd-fra",
+            "total_player_count": 7
+        },
+        {
+            "game_mode_id": "survival",
+            "lobby_id": "65fc4512-6f3e-484d-abd1-8155c33dee85",
+            "max_players_direct": 120,
+            "max_players_normal": 120,
+            "max_players_party": 120,
+            "region_id": "lnd-atl",
+            "total_player_count": 35
+        },
+        {
+            "game_mode_id": "survival",
+            "lobby_id": "797d88a5-b72d-403c-bf28-23608cd64c18",
+            "max_players_direct": 120,
+            "max_players_normal": 120,
+            "max_players_party": 120,
+            "region_id": "lnd-syd",
+            "total_player_count": 4
+        },
+        {
+            "game_mode_id": "survival",
+            "lobby_id": "817b09ca-6f7f-455c-9fe4-82b435f05cd3",
+            "max_players_direct": 120,
+            "max_players_normal": 120,
+            "max_players_party": 120,
+            "region_id": "lnd-fra",
+            "total_player_count": 120
+        },
+        {
+            "game_mode_id": "ghoul",
+            "lobby_id": "8b971061-53d9-4662-a069-b435d3ca5042",
+            "max_players_direct": 120,
+            "max_players_normal": 120,
+"max_players_party": 120,
+            "region_id": "lnd-atl",
+            "total_player_count": 2
+        },
+        {
+            "game_mode_id": "ghoul",
+            "lobby_id": "d92d5658-ae06-44a0-852e-11dd0cd1510d",
+            "max_players_direct": 120,
+            "max_players_normal": 120,
+            "max_players_party": 120,
+            "region_id": "lnd-sfo",
+            "total_player_count": 1
+        },
+        {
+            "game_mode_id": "survival",
+            "lobby_id": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00",
+            "max_players_direct": 120,
+            "max_players_normal": 120,
+            "max_players_party": 120,
+            "region_id": "lnd-tok",
+            "total_player_count": 77
+        },
+        {
+            "game_mode_id": "survival",
+            "lobby_id": "fe94a3c0-2fc8-4e96-ae4d-38f601fbdc22",
+            "max_players_direct": 120,
+            "max_players_normal": 120,
+            "max_players_party": 120,
+            "region_id": "lnd-fra",
+            "total_player_count": 67
+        }
+    ],
+    "regions": [
+        {
+            "datacenter_coord": {
+                "latitude": 33.74819,
+                "longitude": -84.39086
+            },
+            "datacenter_distance_from_client": {
+                "kilometers": 9154.410763,
+                "miles": 5688.285370216073
+            },
+            "provider_display_name": "Linode",
+            "region_display_name": "Atlanta",
+            "region_id": "lnd-atl"
+        },
+        {
+            "datacenter_coord": {
+                "latitude": 50.11044,
+                "longitude": 8.68183
+            },
+            "datacenter_distance_from_client": {
+                "kilometers": 2749.723305,
+                "miles": 1708.598319751155
+            },
+            "provider_display_name": "Linode",
+            "region_display_name": "Frankfurt",
+            "region_id": "lnd-fra"
+        },
+        {
 "datacenter_coord": {
                 "latitude": 37.77938,
                 "longitude": -122.41843
