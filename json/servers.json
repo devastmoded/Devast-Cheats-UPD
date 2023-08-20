@@ -1,22 +1,4 @@
-
-    "ports": {
-        "default": {
-            "host": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00-default.lobby.lnd-tok.rivet.run:443",
-            "hostname": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00-default.lobby.lnd-tok.rivet.run",
-            "is_tls": true,
-            "port": 443
-        }
-    }
-{
-    "game_modes": [
-        {
-            "game_mode_id": "ghoul"
-        },
-        {
-            "game_mode_id": "survival"
-        }
-    ],
-    "lobbies": [
+"lobbies": [
         {
             "game_mode_id": "survival",
             "lobby_id": "224032ac-4481-41cb-9e50-6588b47ba2ae",
