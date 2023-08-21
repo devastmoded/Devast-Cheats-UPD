@@ -1,151 +1,97 @@
-"lobbies": [
-        {
-            "game_mode_id": "survival",
-            "lobby_id": "224032ac-4481-41cb-9e50-6588b47ba2ae",
-            "max_players_direct": 120,
-            "max_players_normal": 120,
-            "max_players_party": 120,
-            "region_id": "lnd-sfo",
-            "total_player_count": 78
-        },
-        {
-            "game_mode_id": "ghoul",
-            "lobby_id": "42e40176-5530-43fb-b17b-098aa42fe9fb",
-            "max_players_direct": 120,
-            "max_players_normal": 120,
-            "max_players_party": 120,
-            "region_id": "lnd-fra",
-            "total_player_count": 7
-        },
-        {
-            "game_mode_id": "survival",
-            "lobby_id": "65fc4512-6f3e-484d-abd1-8155c33dee85",
-            "max_players_direct": 120,
-            "max_players_normal": 120,
-            "max_players_party": 120,
-            "region_id": "lnd-atl",
-            "total_player_count": 35
-        },
-        {
-            "game_mode_id": "survival",
-            "lobby_id": "797d88a5-b72d-403c-bf28-23608cd64c18",
-            "max_players_direct": 120,
-            "max_players_normal": 120,
-            "max_players_party": 120,
-            "region_id": "lnd-syd",
-            "total_player_count": 4
-        },
-        {
-            "game_mode_id": "survival",
-            "lobby_id": "817b09ca-6f7f-455c-9fe4-82b435f05cd3",
-            "max_players_direct": 120,
-            "max_players_normal": 120,
-            "max_players_party": 120,
-            "region_id": "lnd-fra",
-            "total_player_count": 120
-        },
-        {
-            "game_mode_id": "ghoul",
-            "lobby_id": "8b971061-53d9-4662-a069-b435d3ca5042",
-            "max_players_direct": 120,
-            "max_players_normal": 120,
-"max_players_party": 120,
-            "region_id": "lnd-atl",
-            "total_player_count": 2
-        },
-        {
-            "game_mode_id": "ghoul",
-            "lobby_id": "d92d5658-ae06-44a0-852e-11dd0cd1510d",
-            "max_players_direct": 120,
-            "max_players_normal": 120,
-            "max_players_party": 120,
-            "region_id": "lnd-sfo",
-            "total_player_count": 1
-        },
-        {
-            "game_mode_id": "survival",
-            "lobby_id": "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00",
-            "max_players_direct": 120,
-            "max_players_normal": 120,
-            "max_players_party": 120,
-            "region_id": "lnd-tok",
-            "total_player_count": 77
-        },
-        {
-            "game_mode_id": "survival",
-            "lobby_id": "fe94a3c0-2fc8-4e96-ae4d-38f601fbdc22",
-            "max_players_direct": 120,
-            "max_players_normal": 120,
-            "max_players_party": 120,
-            "region_id": "lnd-fra",
-            "total_player_count": 67
-        }
-    ],
-    "regions": [
-        {
-            "datacenter_coord": {
-                "latitude": 33.74819,
-                "longitude": -84.39086
-            },
-            "datacenter_distance_from_client": {
-                "kilometers": 9154.410763,
-                "miles": 5688.285370216073
-            },
-            "provider_display_name": "Linode",
-            "region_display_name": "Atlanta",
-            "region_id": "lnd-atl"
-        },
-        {
-            "datacenter_coord": {
-                "latitude": 50.11044,
-                "longitude": 8.68183
-            },
-            "datacenter_distance_from_client": {
-                "kilometers": 2749.723305,
-                "miles": 1708.598319751155
-            },
-            "provider_display_name": "Linode",
-            "region_display_name": "Frankfurt",
-            "region_id": "lnd-fra"
-        },
-        {
-"datacenter_coord": {
-                "latitude": 37.77938,
-                "longitude": -122.41843
-            },
-            "datacenter_distance_from_client": {
-                "kilometers": 9609.083949999998,
-                "miles": 5970.806103095449
-            },
-            "provider_display_name": "Linode",
-            "region_display_name": "San Francisco",
-            "region_id": "lnd-sfo"
-        },
-        {
-            "datacenter_coord": {
-                "latitude": -33.87271,
-                "longitude": 151.20569
-            },
-            "datacenter_distance_from_client": {
-                "kilometers": 13767.246212,
-                "miles": 8554.567545996651
-            },
-            "provider_display_name": "Linode",
-            "region_display_name": "Sydney",
-            "region_id": "lnd-syd"
-        },
-        {
-            "datacenter_coord": {
-                "latitude": 35.68951,
-                "longitude": 139.6917
-            },
-            "datacenter_distance_from_client": {
-                "kilometers": 6850.281256,
-                "miles": 4256.566114321976
-            },
-            "provider_display_name": "Linode",
-            "region_display_name": "Tokyo",
-            "region_id": "lnd-tok"
-        }
-    ]
-}
+[
+["139.162.190.42", "139-162-190-42.devast.io", "443", 1, "Europe", 
+10
+],
+["172.104.150.187", "172-104-150-187.devast.io", "443", 1, "Europe", 
+10
+],
+["45.33.59.165", "45-33-59-165.devast.io", "443", 1, "USA West", 
+10
+],
+["173.255.221.28", "173-255-221-28.devast.io", "443", 1, "USA West", 
+10
+],
+["69.164.210.207", "69-164-210-207.devast.io", "443", 1, "USA East", 
+10
+],
+["104.200.29.183", "104-200-29-183.devast.io", "443", 1, "USA East", 
+10
+],
+["139.162.6.31", "139-162-6-31.devast.io", "443", 1, "Asia", 
+10
+],
+["172.104.142.71", "172-104-142-71.devast.io", "443", 1, "EuropeGHOUL", 
+1
+],
+["172.104.219.140", "172-104-219-140.devast.io", "443", 1, "USA EastGHOUL", 
+1
+],
+["172.104.226.236", "172-104-226-236.devast.io", "443", 1, "PVP - sniper - bunkerHIDDEN", 
+1
+],
+["172.105.91.68", "devast22.devast.io", "443", 1, "LAPA PLZ UPDATEHIDDEN", 
+1
+],
+["45.79.39.212", "devast69.devast.io", "443", 1, "dont wake up aliveHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["139.162.251.205", "devast115.devast.io", "443", 1, "FUN GAME-[Sandbox-Pvp-And more]]HIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["178.79.178.54", "devast137.devast.io", "443", 1, "Pawel ServerHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["139.162.132.133", "devast184.devast.io", "443", 1, "No WaterHIDDEN", 
+100
+],
+["172.105.72.60", "devast192.devast.io", "443", 1, "DevastMod - SandboxPRIV", 
+100
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["50.116.49.137", "devast193.devast.io", "443", 1, "DevastMod FullGearHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+],
+["???", "???", "443", 1, "lmHIDDEN", 
+1
+]]
