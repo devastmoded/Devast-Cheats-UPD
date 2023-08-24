@@ -456,7 +456,7 @@ window.onload = () => {
     visuals.add(MOD, "ColorizeTeam");
     visuals.addColor(MOD, "TeamColor").onChange(() => MOD.TeamColor = MOD.TeamColor);
     visuals.addColor(MOD, "EnemyColor").onChange(() => MOD.EnemyColor = MOD.EnemyColor);
-    aimbot.addColor(MOD, "backgroundMode").onChange(() => canvas.style.backgroundColor = "#EEEEEE"[0].color = MOD.backgroundMode);
+    visuals.addColor(MOD, "backgroundMode").onChange(() => canvas.style.backgroundColor = "#EEEEEE"[0].color = MOD.backgroundMode);
     visuals.add(MOD, "showLandmines");
     visuals.add(MOD, "showSpikes");
     visuals.add(MOD, "showWires");
