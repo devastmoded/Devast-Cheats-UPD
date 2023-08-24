@@ -434,12 +434,11 @@ window.onload = () => {
     aimbot.add(MOD, "target", ["players", "ghouls", "all"]);
     aimbot.add(MOD, "mouseFovEnable"),
     aimbot.add(MOD, "distanceCoefficient", 10, 1000, 10);
+    aimbot.add(MOD, "lockId", -1, 120, 1);
     aimbot.add(MOD, "autoFire");
     aimbot.add(MOD, "mouseFov", 0, 3e3, 100)
     aimbot.add(MOD, "visualizeResolving");
     aimbot.addColor(MOD, "visualizeResolvingColor").onChange(() => GetAllTargets.lines[0].color = MOD.visualizeResolvingColor);
-    aimbot.add(MOD, "lockId", -1, 120, 1);
-    aimbot.addColor(MOD, "backgroundMode").onChange(() => canvas.style.backgroundColor = "#EEEEEE"[0].color = MOD.backgroundMode);
 
     var lag = MENU.addFolder("ANTIAIM");
     lag.add(MOD, "lag");
@@ -457,6 +456,7 @@ window.onload = () => {
     visuals.add(MOD, "ColorizeTeam");
     visuals.addColor(MOD, "TeamColor").onChange(() => MOD.TeamColor = MOD.TeamColor);
     visuals.addColor(MOD, "EnemyColor").onChange(() => MOD.EnemyColor = MOD.EnemyColor);
+    aimbot.addColor(MOD, "backgroundMode").onChange(() => canvas.style.backgroundColor = "#EEEEEE"[0].color = MOD.backgroundMode);
     visuals.add(MOD, "showLandmines");
     visuals.add(MOD, "showSpikes");
     visuals.add(MOD, "showWires");
