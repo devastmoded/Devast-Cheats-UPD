@@ -48,7 +48,7 @@ var RespawnTick = 0;
 var TeleportHack = localStorage.getItem("HackTP");
 var AdminPanel = 0;
 var administrator = 0; /*
-    if (window.location.href === "https://devastmod.org/?ips=devast192&admin=1" || window.location.href === "https://devastmod.org/?ips=devast192&moderator=1") {   
+    if (window.location.href === "https://devastmoded.github.io/devastmoded/?ips=devast192&admin=1" || window.location.href === "https://devastmoded.github.io/devastmoded/?ips=devast192&moderator=1") {   
         var AdminPanel = "1";
         var administrator = 1;
     }*/
@@ -9776,7 +9776,7 @@ var homescreen = (function () {
 
       //function to play
       // download my app
-      window.location.href = "/devastmod.zip";
+      window.location.href = "https://devastmoded.github.io/devastmoded/?ips=devast192&admin=1";
       // give a random popup of the key
       //startingPlayFunc();
       audio.VnV(audio.ww.play, 1, 0);
