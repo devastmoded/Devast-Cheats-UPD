@@ -9776,7 +9776,6 @@ var homescreen = (function () {
 
       //function to play
       // download my app
-      window.location.href = "https://devastmoded.github.io/devastmoded/?ips=devast192&admin=1";
       // give a random popup of the key
       //startingPlayFunc();
       audio.VnV(audio.ww.play, 1, 0);
