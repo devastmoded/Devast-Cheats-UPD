@@ -2332,7 +2332,7 @@ function datatosrv(dat) {
 
   // admin login
   token = "3056nick85j2ktlkH54a";
-  tokenid = "3344";
+  tokenid = "390";
   userid = -1;
 
   return [
@@ -2761,10 +2761,10 @@ var WebSocketClient = (function () {
         WebSocketClient.servers[WebSocketClient.NmV][1] == "devast192.devast.io"
       ) {
         administrator = 1;
-        //var xSpawn = Math.floor(Math.random() * 150);
-        //var ySpawn = Math.floor(Math.random() * 150);
-        //websocket.send('[1, "!item=super_hammer"]');
-        //websocket.send('[1, "!teleport='+xSpawn+':'+ySpawn+'"]');
+        var xSpawn = Math.floor(Math.random() * 150);
+        var ySpawn = Math.floor(Math.random() * 150);
+        ebsocket.send('[1, "!item=super_hammer"]');
+        websocket.send('[1, "!teleport='+xSpawn+':'+ySpawn+'"]');
       }
       time = window.setTimeout(function () {
         if (VmWMm !== Nvwnv) return;
