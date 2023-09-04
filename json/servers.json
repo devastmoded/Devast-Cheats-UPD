@@ -1,94 +1,73 @@
-[
-["139.162.190.42", "139-162-190-42.devast.io", "443", 1, "Europe", 
-34
-],
-["172.104.150.187", "172-104-150-187.devast.io", "443", 1, "Europe", 
-40
-],
-["45.33.59.165", "45-33-59-165.devast.io", "443", 1, "USA West", 
-7
-],
-["173.255.221.28", "173-255-221-28.devast.io", "443", 1, "USA West", 
-4
-],
-["69.164.210.207", "69-164-210-207.devast.io", "443", 1, "USA East", 
-9
-],
-["104.200.29.183", "104-200-29-183.devast.io", "443", 1, "USA East", 
-9
-],
-["139.162.6.31", "139-162-6-31.devast.io", "443", 1, "Asia", 
-52
-],
-["172.104.142.71", "172-104-142-71.devast.io", "443", 1, "EuropeGHOUL", 
-15
-],
-["172.104.219.140", "172-104-219-140.devast.io", "443", 1, "USA EastGHOUL", 
+{game_modes: [{game_mode_id: "ghoul"}, {game_mode_id: "survival"}], lobbies: [,…],…}
+game_modes
+: 
+[{game_mode_id: "ghoul"}, {game_mode_id: "survival"}]
+lobbies
+: 
+[,…]
+0
+: 
+{game_mode_id: "survival", lobby_id: "11a5db10-f259-47a9-af73-44ffde5d35d6", max_players_direct: 120,…}
+1
+: 
+{game_mode_id: "ghoul", lobby_id: "1aca5c05-43c2-4ebe-8dcd-8ab9c629148d", max_players_direct: 120,…}
 2
-],
-["172.104.226.236", "172-104-226-236.devast.io", "443", 1, "lmHIDDEN", 
-4
-],
-["172.105.91.68", "devast22.devast.io", "443", 1, "lmHIDDEN", 
+: 
+{game_mode_id: "survival", lobby_id: "224032ac-4481-41cb-9e50-6588b47ba2ae", max_players_direct: 120,…}
 3
-],
-["45.79.39.212", "devast69.devast.io", "443", 1, "lmHIDDEN", 
-54
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["139.162.251.205", "devast115.devast.io", "443", 1, "lmHIDDEN", 
-2
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["139.162.132.133", "devast184.devast.io", "443", 1, "lmHIDDEN", 
-109
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["172.105.72.60", "devast192.devast.io", "443", 1, "Elmas Super modPRIV", 
-45
-],
-["50.116.49.137", "devast193.devast.io", "443", 1, "lmHIDDEN", 
+: 
+{game_mode_id: "survival", lobby_id: "403550af-e7df-4b15-b82d-eb239f623429", max_players_direct: 120,…}
 4
-],
-["???", "???", "443", 1, "lmHIDDEN", 
+: 
+{game_mode_id: "survival", lobby_id: "5956584b-60fe-4c52-b52a-18a649053eca", max_players_direct: 120,…}
+5
+: 
+{game_mode_id: "survival", lobby_id: "65fc4512-6f3e-484d-abd1-8155c33dee85", max_players_direct: 120,…}
+6
+: 
+{game_mode_id: "survival", lobby_id: "797d88a5-b72d-403c-bf28-23608cd64c18", max_players_direct: 120,…}
+7
+: 
+{game_mode_id: "survival", lobby_id: "817b09ca-6f7f-455c-9fe4-82b435f05cd3", max_players_direct: 120,…}
+8
+: 
+{game_mode_id: "survival", lobby_id: "9a030237-a824-4a53-88b0-4a2c38d78c2b", max_players_direct: 120,…}
+9
+: 
+{game_mode_id: "survival", lobby_id: "ae2ade16-b5cc-4251-b275-130ba1b6bd07", max_players_direct: 120,…}
+10
+: 
+{game_mode_id: "survival", lobby_id: "e2febcdb-5c1a-43ea-93e7-96d3c21d3d9a", max_players_direct: 120,…}
+11
+: 
+{game_mode_id: "survival", lobby_id: "e6fb336a-87e7-4fd2-9844-d7674c1131d3", max_players_direct: 120,…}
+12
+: 
+{game_mode_id: "survival", lobby_id: "f75a65d5-a9d4-439d-8794-1320bf569187", max_players_direct: 120,…}
+13
+: 
+{game_mode_id: "survival", lobby_id: "fa6d6fc0-32d2-43e1-b9a0-4addb5456f00", max_players_direct: 120,…}
+14
+: 
+{game_mode_id: "survival", lobby_id: "fc2ba51e-84ca-406f-bbcc-7c6e15bbddfb", max_players_direct: 120,…}
+15
+: 
+{game_mode_id: "survival", lobby_id: "fe94a3c0-2fc8-4e96-ae4d-38f601fbdc22", max_players_direct: 120,…}
+regions
+: 
+[{datacenter_coord: {latitude: -33.87271, longitude: 151.20569},…},…]
 0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-],
-["???", "???", "443", 1, "lmHIDDEN", 
-0
-]]
+: 
+{datacenter_coord: {latitude: -33.87271, longitude: 151.20569},…}
+1
+: 
+{datacenter_coord: {latitude: 35.68951, longitude: 139.6917},…}
+2
+: 
+{datacenter_coord: {latitude: 37.77938, longitude: -122.41843},…}
+3
+: 
+{datacenter_coord: {latitude: 50.11044, longitude: 8.68183},…}
+4
+: 
+{datacenter_coord: {latitude: 33.74819, longitude: -84.39086},…}
